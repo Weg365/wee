@@ -40,4 +40,4 @@ function playM3u8(url, license){
     
 }
 
-playM3u8(window
+playM3u8(window.location.href.split("#")[1], window.location.href.split("=")[1])
